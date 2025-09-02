@@ -8,25 +8,53 @@ body {
   color: #333;
 }
 
-/* Unified Header */
+/* Unified Header - Aesthetic Version */
 header {
-  background: #ffffff;                       /* clean white for modern aesthetic */
-  color: #222222;                            /* main text color for contrast */
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec); /* soft modern gradient */
+  color: #222222;                                        /* readable text */
   text-align: center;
   padding: 60px 20px;
-  border-bottom: 2px solid #e0e0e0;         /* subtle separation */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);  /* soft depth */
+  border-bottom: 1px solid #cbd5e1;                     /* subtle separation */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);             /* soft depth */
+  border-radius: 0 0 10px 10px;                         /* rounded bottom for sleek touch */
 }
 
-/* Header Navigation */
-header nav {
-  margin-top: 20px;
+/* Name */
+header h1 {
+  font-size: 2.8rem;
+  margin: 15px 0 10px 0;
+  font-weight: 700;
+  color: #1a1a1a;            /* dark but softer than black */
+  letter-spacing: 1px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Tagline */
+header p {
+  font-size: 1.2rem;
+  color: #3b3b3b;            /* slightly lighter for elegance */
+  margin-bottom: 25px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 3px solid #bbb;             /* soft classy border */
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+/* Navigation Links */
 header nav a {
   display: inline-block;
   margin: 0 15px;
-  color: #0077cc;            /* professional accent color */
+  color: #0077cc;                     /* professional accent */
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
@@ -34,8 +62,8 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #005fa3;            /* subtle hover effect */
-  transform: translateY(-2px); /* small lift for aesthetic touch */
+  color: #005fa3;
+  transform: translateY(-2px);        /* subtle hover lift */
 }
 
 /* Profile Picture */
