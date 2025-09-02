@@ -56,4 +56,14 @@ a:hover {
   margin-bottom: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;   /* crops the extra space */
+  border-radius: 50%;  /* makes it a neat circle */
+  display: block;
+  margin: 0 auto;      /* centers the image */
+  border: 3px solid #333; /* optional, makes it look classy */
+}
+
 
