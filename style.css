@@ -10,7 +10,8 @@ body {
 
 /* Unified Header - Aesthetic Version */
 header {
-  background: linear-gradient(135deg, #f0f4f8, #d9e2ec) !important;
+  header {
+  background: linear-gradient(135deg, #e0f0ff, #c0d9ec) !important;
   color: #222222;
   text-align: center;
   padding: 60px 20px;
