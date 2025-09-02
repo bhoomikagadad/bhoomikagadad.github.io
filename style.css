@@ -10,12 +10,12 @@ body {
 
 /* Unified Header */
 header {
-  background: #f5f5f5; /* soft light gray for modern, professional look */
-  color: #222;         /* high contrast for readability */
+  background: #ffffff;                       /* clean white for modern aesthetic */
+  color: #222222;                            /* main text color for contrast */
   text-align: center;
   padding: 60px 20px;
-  border-bottom: 1px solid #ddd;               /* subtle separation */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);     /* soft depth */
+  border-bottom: 2px solid #e0e0e0;         /* subtle separation */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);  /* soft depth */
 }
 
 /* Header Navigation */
@@ -29,11 +29,13 @@ header nav a {
   color: #0077cc;            /* professional accent color */
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s ease;
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 header nav a:hover {
   color: #005fa3;            /* subtle hover effect */
+  transform: translateY(-2px); /* small lift for aesthetic touch */
 }
 
 /* Profile Picture */
@@ -44,57 +46,29 @@ header nav a:hover {
   object-fit: cover;
   display: block;
   margin: 0 auto 20px auto;
-  border: 3px solid #ccc;             /* soft, classy border */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 3px solid #cccccc;             /* soft, classy border */
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1); /* elegant shadow */
 }
 
 /* Header Text: Name & Tagline */
 header h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin: 15px 0 10px 0;
   font-weight: 700;
-  color: #111;       /* ensures name stands out */
+  color: #0a0a0a;         /* darker for elegance and readability */
+  letter-spacing: 1px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header p {
   font-size: 1.2rem;
-  color: #555;       /* readable tagline color */
+  color: #555555;         /* soft gray for tagline */
   margin-bottom: 25px;
+  font-weight: 500;
+  opacity: 0.9;
 }
 
 /* Main Container */
 .container {
   max-width: 900px;
-  margin: auto;
-  padding: 20px;
-}
-
-/* Headings */
-h1, h2 {
-  color: #222;
-}
-
-/* Lists */
-ul {
-  list-style: square;
-  margin-left: 20px;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 15px;
-  background: #1a1a1a;
-  color: #fff;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-
-/* Links */
-a {
-  color: #0066cc;
-}
-a:hover {
-  text-decoration: underline;
-}
+  margin: au
