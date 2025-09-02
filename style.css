@@ -10,13 +10,13 @@ body {
 
 /* Unified Header - Aesthetic Version */
 header {
-  background: linear-gradient(135deg, #f0f4f8, #d9e2ec); /* soft modern gradient */
-  color: #222222;                                        /* readable text */
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec) !important;
+  color: #222222;
   text-align: center;
   padding: 60px 20px;
-  border-bottom: 1px solid #cbd5e1;                     /* subtle separation */
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);             /* soft depth */
-  border-radius: 0 0 10px 10px;                         /* rounded bottom for sleek touch */
+  border-bottom: 1px solid #cbd5e1;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-radius: 0 0 10px 10px;
 }
 
 /* Name */
