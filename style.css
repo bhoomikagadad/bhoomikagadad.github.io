@@ -65,5 +65,25 @@ a:hover {
   margin: 0 auto;      /* centers the image */
   border: 3px solid #333; /* optional, makes it look classy */
 }
+.hero {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  opacity: 0.9;
+}
+
 
 
