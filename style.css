@@ -1,3 +1,4 @@
+/* Body & Typography */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,46 +8,79 @@ body {
   color: #333;
 }
 
-/* Unified Header (Hero) */
+/* Unified Header */
 header {
-  background: #1a1a1a; /* sleek dark gray instead of harsh black */
-  color: #fff;
+  background: #f5f5f5; /* soft light gray for modern, professional look */
+  color: #222;         /* high contrast for readability */
   text-align: center;
   padding: 60px 20px;
+  border-bottom: 1px solid #ddd;               /* subtle separation */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);     /* soft depth */
 }
 
+/* Header Navigation */
 header nav {
   margin-top: 20px;
 }
 
 header nav a {
+  display: inline-block;
   margin: 0 15px;
-  color: #fff;
+  color: #0077cc;            /* professional accent color */
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1rem;
+  font-weight: 500;
   transition: color 0.3s ease;
 }
 
 header nav a:hover {
-  color: #00aaff; /* subtle blue hover for professional touch */
+  color: #005fa3;            /* subtle hover effect */
 }
 
+/* Profile Picture */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 3px solid #ccc;             /* soft, classy border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Header Text: Name & Tagline */
+header h1 {
+  font-size: 2.5rem;
+  margin: 15px 0 10px 0;
+  font-weight: 700;
+  color: #111;       /* ensures name stands out */
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;       /* readable tagline color */
+  margin-bottom: 25px;
+}
+
+/* Main Container */
 .container {
   max-width: 900px;
   margin: auto;
   padding: 20px;
 }
 
+/* Headings */
 h1, h2 {
   color: #222;
 }
 
+/* Lists */
 ul {
   list-style: square;
   margin-left: 20px;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 15px;
@@ -57,37 +91,10 @@ footer {
   width: 100%;
 }
 
+/* Links */
 a {
   color: #0066cc;
 }
 a:hover {
   text-decoration: underline;
-}
-
-/* Profile Picture */
-.profile-pic {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 3px solid #444; /* softer than black */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-/* Intro Text */
-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-header p {
-  font-size: 1.2rem;
-  margin-top: 0;
-  opacity: 0.85;
 }
