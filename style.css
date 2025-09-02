@@ -6,84 +6,88 @@ body {
   background: #f9f9f9;
   color: #333;
 }
+
+/* Unified Header (Hero) */
 header {
-  background: #222;
+  background: #1a1a1a; /* sleek dark gray instead of harsh black */
   color: #fff;
-  padding: 20px 0;
   text-align: center;
+  padding: 60px 20px;
 }
+
+header nav {
+  margin-top: 20px;
+}
+
 header nav a {
-  margin: 0 10px;
+  margin: 0 15px;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
+
 header nav a:hover {
-  text-decoration: underline;
+  color: #00aaff; /* subtle blue hover for professional touch */
 }
+
 .container {
   max-width: 900px;
   margin: auto;
   padding: 20px;
 }
+
 h1, h2 {
   color: #222;
 }
+
 ul {
   list-style: square;
   margin-left: 20px;
 }
+
 footer {
   text-align: center;
   padding: 15px;
-  background: #222;
+  background: #1a1a1a;
   color: #fff;
   position: relative;
   bottom: 0;
   width: 100%;
 }
+
 a {
   color: #0066cc;
 }
 a:hover {
   text-decoration: underline;
 }
+
+/* Profile Picture */
 .profile-pic {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-.profile-pic {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;   /* crops the extra space */
-  border-radius: 50%;  /* makes it a neat circle */
   display: block;
-  margin: 0 auto;      /* centers the image */
-  border: 3px solid #333; /* optional, makes it look classy */
-}
-.hero {
-  background: url('header-bg.jpg') center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #444; /* softer than black */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-.hero h1 {
-  font-size: 3rem;
+/* Intro Text */
+header h1 {
+  font-size: 2.5rem;
   margin-bottom: 10px;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
-.hero p {
-  font-size: 1.5rem;
+header p {
+  font-size: 1.2rem;
   margin-top: 0;
-  opacity: 0.9;
+  opacity: 0.85;
 }
-
-
-
